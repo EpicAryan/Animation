@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
+  
   return (
     <div className="bg-slate-600 p-4 text-white flex ">
         <div className='flex justify-center basis-1/4'>
@@ -14,6 +16,8 @@ const Navbar = () => {
             <Link to='/about'><li>About</li></Link>
             <Link to='/contact'><li>Contact</li></Link>
         </ul>
+       
+        
     </div>
   )
 }
